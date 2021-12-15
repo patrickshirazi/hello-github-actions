@@ -6,7 +6,7 @@ inputs:
   MY_NAME:
     ddescription: "Who to greet"
     required: true
-    default "World"
+    default: "World"
 runs:
   using: "docker"
   image: "Dockerfile"
